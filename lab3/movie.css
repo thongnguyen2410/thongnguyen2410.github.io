@@ -1,0 +1,112 @@
+/*Hoang Thong Nguyen, lab 3, tmnt movie css file */
+body {
+     background-image: url('https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png');
+     background-repeat: repeat;
+     font-size: 8pt; 
+     font-family: Verdana,Tahoma, sans-serif;
+     margin: 0;
+     padding: 0;
+    }
+h1 {
+    font: 24pt, bold, Tahoma, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+    }
+#banner { 
+        text-align: center;
+        height: 50px;
+        background: url('https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png') repeat;
+       }
+#principal {
+            height: 1350px;
+            width: 800px;
+            border: solid 4px; 
+            border-radius: 8px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: transparent;
+            position: relative;
+            }
+#rotten {
+        vertical-align: text-top;
+        background: url(https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png) repeat;
+        height: 83px;
+        font-size: 48pt;
+        font-weight: bold;
+        color: red;
+        }
+.review {
+        font-size: 8pt;
+        font-weight: bold;
+        background-color: #E8DC9B;
+        border: grey solid 2px;
+        border-radius: 10px;
+        padding: 8px;
+        }
+#leftcol {
+          margin-top: 2%;
+          width: 47%;
+          margin-left: 2%;
+          margin-right: 1%;
+          float: left;
+          display: table-cell;
+         }
+#rightcol {
+          margin-top: 2%;
+           width: 47%;
+           margin-left: 1%;
+           margin-right: 2%;
+           float: right;
+           display: table-cell;
+          }
+#genover {
+         height: 1320px;
+         background-color: #A2B964;
+         width: 250px;
+         font-size: 8pt;
+         font-family: Arial, sans-serif;
+         float: right;
+         }
+dl {
+    padding: 10pt;
+    }
+dt { 
+    font-weight: bold;
+    margin-top: 10pt;
+    line-height: 10pt;
+   }
+#recens {
+        width: 550px;
+        float: left;
+        }
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+.fondo {
+        text-align: center;
+        background-color: #A2B964;
+        width: 800px;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: auto;
+        padding: 0;
+        }
+#validator {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            opacity: 0.5;
+            }
+.comments {
+            font-style: oblique;
+            display: flex;
+            margin-bottom: 20pt;
+
+        }
+ .comments>img {
+            margin-right: 5px;
+            float: left;
+            }
