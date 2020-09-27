@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JSPQuiz:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JSPQuiz</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="firstServlet-numberQuizIntellij.war">
+      <element id="artifact" artifact-name="JSPQuiz:war exploded" />
+    </root>
+  </artifact>
+</component>
